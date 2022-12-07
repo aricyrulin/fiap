@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log In | Banca Fácil</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Banca Fácil</h1>
+    </header>
+    <main>
+      <h3>Apostar</h3>
+      <form method="get" action="./index.html">
+        <label for="select">Selecionar site</label>
+        <select id="select">
+          <option value="365Bet">365Bet</option>
+          <option value="Betano">Betano</option>
+          <option value="SportingBet">SportingBet</option>
+          <option value="Bodog">Bodog</option>
+        </select>
+        <input type="text" name="link" placeholder="Link da aposta" required>
+        <input type="text" name="prop" placeholder="Prop" required>
+        <input type="text" name="valor" placeholder="Valor" required>
+        <input class="btn" type="submit" value="Apostar">
+      </form>
+    </main>
+  </div>
+</body>
+</html>
